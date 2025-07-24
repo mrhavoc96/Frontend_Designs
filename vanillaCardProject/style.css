@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(450deg, rgb(183, 121, 194), rgb(208, 161, 161));
+    margin: 0px;
+}
+
+.main-container{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 70% 30%;
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: cadetblue; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: auto;
+    padding: 8px;
+    gap: 12px;
+
+}
+
+.cardOne, .cardTwo, .cardThree{
+    display: grid;
+    grid-template-rows: 70% 15% 15%;
+    box-sizing: border-box;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: antiquewhite;
+
+}
+
+.caption{
+    display: grid;
+    
+    grid-template-rows: 40% 60%;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 30px;
+    /* justify-content: center; */
+
+}
+
+.caption h1{
+    text-align: center;
+}
+
+.cardOne img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: 80% 80%;
+}
+.cardTwo img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: 80% 80%;
+}
+.cardThree img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: 80% 65%;
+}
+.buttons{
+    display: flex;
+    
+    justify-content: center; /* 🔑 THIS centers each button horizontally in its cell */
+    align-items: center;   /* 🔑 THIS vertically centers each button in its cell */
+    gap: 18px;
+}
+
+button{
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* transition: all; */
+}
+
+.Next{
+    background-color: rgb(108, 72, 141);
+    color: white;
+}
+
+.Visit{
+    background-color: rgb(190, 122, 137);
+    color: white;
+}
